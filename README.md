@@ -41,8 +41,9 @@ Depends on these npm modules:
 
 csv-parse, csv-stringify 
 
+n.b. `max-old-space-size=8192` increases V8 JS engine max memory use to 8GB.
 
 
-## n.b. Useful command to extract a nth column from a quote delimited csv file
+Extra: Useful command to extract a nth column from a quote delimited csv file
 
 `cut -d "\"" -f4 account-promo-code-backup.csv | tr -s '\n' > codes.csv`
