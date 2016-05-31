@@ -42,6 +42,7 @@ Depends on these npm modules:
 csv-parse, csv-stringify 
 
 
-n.b. to extract a column from a file
+
+## n.b. Useful command to extract a nth column from a quote delimited csv file
 
 `cut -d "\"" -f4 account-promo-code-backup.csv | tr -s '\n' > codes.csv`
