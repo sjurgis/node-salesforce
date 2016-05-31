@@ -11,8 +11,8 @@ File sample.csv should contain id field, which name can specified
 in **fieldname** variable
 
 Run this prior starting the script:
-./force login -i=test -u testuser@company.com.fullcopy -p 
+`./force login -i=test -u testuser@company.com.fullcopy -p`
 
 
 To run the script type
-node extract.js
+`node extract.js`
